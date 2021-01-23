@@ -1,0 +1,41 @@
+body{
+	font-family:'Maiden Orange',Helvetica,san-serif; 
+	font-size: 20px;
+	text-align: center;
+	background: url("mum.jpg");
+	height: :100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}	
+
+#container{
+	max-width: 500px;
+	background-color: #F5EBEB;
+	margin: 20px auto;
+	padding: 10px 30px 10px 50px;
+	border-radius: 25%;
+}
+
+.info{
+	text-align: left;
+	display: block;
+}
+input[type="text"]{
+	width: 200px;
+}
+
+input[type="email"]{
+	width: 200px;
+}
+
+input[type="number"]{
+	width: 200px;
+	margin-left: 15px;
+}
+
+button{
+	background-color: blue;
+	color: white;
+	padding: 5px;
+}
